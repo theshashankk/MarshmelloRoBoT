@@ -16,7 +16,7 @@ from userbot import ALIVE_NAME, Lastupdate
 from . import dcdef
 from telethon.tl.types import ChannelParticipantsAdmins
 # 🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "DARK COBRA"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Marshmello"
 
 # Thanks to Sipak bro and Aryan.. 
 # animation Idea by @ItzSipak && @Hell boy_pikachu
@@ -47,9 +47,9 @@ async def hmm(yes):
     pm_caption += "**Yes Master, Am Alive And Systems Are Working Perfectly As It Should Be...**\n\n"
     pm_caption += "✘ About My System ✘\n\n"
     pm_caption += f"➾ **Tᴇʟᴇᴛʜᴏɴ Vᴇʀsɪᴏɴ** ☞ {version.__version__}\n"
-    pm_caption += "➾ **Sᴜᴘᴘᴏʀᴛ Cʜᴀɴɴᴇʟ** ☞ [ᴊᴏɪɴ](https://t.me/Dark_cobra_support)\n"
-    pm_caption += "➾ **ʟɪᴄᴇɴꜱᴇ**  ☞ [𝚃𝙴𝙰𝙼 ᴍᴀʀsʜᴍᴇʟʟᴏ](https://github.com/DARK-COBRA)\n"
-    pm_caption += "➾ **ᴄᴏᴘʏʀɪɢʜᴛ ʙʏ** ☞ [Mᴀʀsʜᴍᴇʟʟᴏ](https://github.com/DARK-COBRA/DARKCOBRA)\n\n"
+    pm_caption += "➾ **Sᴜᴘᴘᴏʀᴛ Cʜᴀɴɴᴇʟ** ☞ [ᴊᴏɪɴ](https://t.me/Marshmellosupport)\n"
+    pm_caption += "➾ **ʟɪᴄᴇɴꜱᴇ**  ☞ [𝚃𝙴𝙰𝙼 ᴍᴀʀsʜᴍᴇʟʟᴏ](https://github.com/theshashankk)\n"
+    pm_caption += "➾ **ᴄᴏᴘʏʀɪɢʜᴛ ʙʏ** ☞ [Mᴀʀsʜᴍᴇʟʟᴏ](https://github.com/theshashankk/marshmello)\n\n"
     pm_caption += f"➾ **ᴜᴘᴛɪᴍᴇ** ☞ {uptime}\n\n"
     pm_caption += f"➾ **ᴍʏ ᴍᴀsᴛᴇʀ** ☞ [{DEFAULTUSER}](tg://user?id={ghanti})\n"
     on = await borg.send_file(yes.chat_id, file=file1,caption=pm_caption)
