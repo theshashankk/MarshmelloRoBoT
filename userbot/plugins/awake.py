@@ -29,7 +29,7 @@ if ALIVE_MESSAGE is None:
    ALIVE_MESSAGE += f"`Telethon: TELETHON-1.19.0 \n\n`"
    ALIVE_MESSAGE += f"`Python: PYTHON-3.8.5 \n\n`"
    ALIVE_MESSAGE += "`I'll Be With You Master Till My Dyno Ends!!☠ \n\n`"
-   ALIVE_MESSAGE += f"`Support Channel` : @Dark_cobra_support \n\n"
+   ALIVE_MESSAGE += f"`Support Channel` : @marshmellosupport \n\n"
    ALIVE_MESSAGE += f"`MY BOSS🤗`: {DEFAULTUSER} \n\n "
                 
             
